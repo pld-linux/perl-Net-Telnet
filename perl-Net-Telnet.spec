@@ -25,7 +25,7 @@ Net-Telnet - wsparcie dla protoko³u TELNET.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
