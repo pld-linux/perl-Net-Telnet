@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Telnet
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Telnet perl module
 Summary(pl):	Modu³ perla Net-Telnet
 Name:		perl-Net-Telnet
 Version:	3.02
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Net-Telnet - interact with TELNET port or other TCP ports.
 Net-Telnet - wsparcie dla protoko³u TELNET.
 
 %prep
-%setup -q -n Net-Telnet-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
