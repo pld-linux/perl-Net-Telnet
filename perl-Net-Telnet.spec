@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Telnet
+%define		pdir	Net
+%define		pnam	Telnet
 Summary:	Net::Telnet Perl module
 Summary(cs):	Modul Net::Telnet pro Perl
 Summary(da):	Perlmodul Net::Telnet
