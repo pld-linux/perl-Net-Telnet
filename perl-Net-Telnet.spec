@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::Telnet
 Summary(zh_CN):	Net::Telnet Perl дё©И
 Name:		perl-Net-Telnet
 Version:	3.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
