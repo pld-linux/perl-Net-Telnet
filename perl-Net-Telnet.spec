@@ -25,7 +25,8 @@ Summary(zh_CN):	Net::Telnet Perl Ä£¿é
 Name:		perl-Net-Telnet
 Version:	3.03
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2f7d34b09d6117baefe89d44cff9d5fc
@@ -53,7 +54,8 @@ Net::Telnet - wsparcie dla protoko³u TELNET.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
