@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Telnet
-Summary:	Net-Telnet perl module
-Summary(pl):	Modu³ perla Net-Telnet
+Summary:	Net::Telnet perl module
+Summary(pl):	Modu³ perla Net::Telnet
 Name:		perl-Net-Telnet
 Version:	3.02
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Telnet - interact with TELNET port or other TCP ports.
+Net::Telnet - interact with TELNET port or other TCP ports.
 
 %description -l pl
-Net-Telnet - wsparcie dla protoko³u TELNET.
+Net::Telnet - wsparcie dla protoko³u TELNET.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
