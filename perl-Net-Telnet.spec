@@ -5,7 +5,7 @@ Summary:	Net::Telnet perl module
 Summary(pl):	Modu³ perla Net::Telnet
 Name:		perl-Net-Telnet
 Version:	3.02
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -32,13 +32,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf ChangeLog README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc ChangeLog README
 %{perl_sitelib}/Net/Telnet.pm
 %{_mandir}/man3/*
