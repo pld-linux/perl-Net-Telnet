@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Net::Telnet
 Summary(it):	Modulo di Perl Net::Telnet
 Summary(ja):	Net::Telnet Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::Telnet ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::Telnet
+Summary(nb):	Perlmodul Net::Telnet
 Summary(pl):	Modu³ Perla Net::Telnet
 Summary(pt):	Módulo de Perl Net::Telnet
 Summary(pt_BR):	Módulo Perl Net::Telnet
