@@ -3,7 +3,7 @@ Summary:	Net-Telnet perl module
 Summary(pl):	Modu³ perla Net-Telnet
 Name:		perl-Net-Telnet
 Version:	3.02
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
