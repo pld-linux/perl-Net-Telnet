@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	Telnet
 Summary:	Net::Telnet Perl module
-Summary(cs):	Modul Net::Telnet pro Perl
-Summary(da):	Perlmodul Net::Telnet
-Summary(de):	Net::Telnet Perl Modul
-Summary(es):	Módulo de Perl Net::Telnet
-Summary(fr):	Module Perl Net::Telnet
-Summary(it):	Modulo di Perl Net::Telnet
-Summary(ja):	Net::Telnet Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Net::Telnet ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Net::Telnet
-Summary(pl):	Modu³ Perla Net::Telnet
-Summary(pt):	Módulo de Perl Net::Telnet
-Summary(pt_BR):	Módulo Perl Net::Telnet
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Net::Telnet
-Summary(sv):	Net::Telnet Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Net::Telnet
-Summary(zh_CN):	Net::Telnet Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Net::Telnet pro Perl
+Summary(da.UTF-8):   Perlmodul Net::Telnet
+Summary(de.UTF-8):   Net::Telnet Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Net::Telnet
+Summary(fr.UTF-8):   Module Perl Net::Telnet
+Summary(it.UTF-8):   Modulo di Perl Net::Telnet
+Summary(ja.UTF-8):   Net::Telnet Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Net::Telnet í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Net::Telnet
+Summary(pl.UTF-8):   ModuÅ‚ Perla Net::Telnet
+Summary(pt.UTF-8):   MÃ³dulo de Perl Net::Telnet
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Net::Telnet
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Net::Telnet
+Summary(sv.UTF-8):   Net::Telnet Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Net::Telnet
+Summary(zh_CN.UTF-8):   Net::Telnet Perl æ¨¡å—
 Name:		perl-Net-Telnet
 Version:	3.03
 Release:	3
@@ -38,8 +38,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::Telnet - interact with TELNET port or other TCP ports.
 
-%description -l pl
-Net::Telnet - wsparcie dla protoko³u TELNET.
+%description -l pl.UTF-8
+Net::Telnet - wsparcie dla protokoÅ‚u TELNET.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
