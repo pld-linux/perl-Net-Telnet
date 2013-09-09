@@ -5,41 +5,30 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Telnet
-Summary:	Net::Telnet Perl module
-Summary(cs.UTF-8):	Modul Net::Telnet pro Perl
-Summary(da.UTF-8):	Perlmodul Net::Telnet
-Summary(de.UTF-8):	Net::Telnet Perl Modul
-Summary(es.UTF-8):	Módulo de Perl Net::Telnet
-Summary(fr.UTF-8):	Module Perl Net::Telnet
-Summary(it.UTF-8):	Modulo di Perl Net::Telnet
-Summary(ja.UTF-8):	Net::Telnet Perl モジュール
-Summary(ko.UTF-8):	Net::Telnet 펄 모줄
-Summary(nb.UTF-8):	Perlmodul Net::Telnet
-Summary(pl.UTF-8):	Moduł Perla Net::Telnet
-Summary(pt.UTF-8):	Módulo de Perl Net::Telnet
-Summary(pt_BR.UTF-8):	Módulo Perl Net::Telnet
-Summary(ru.UTF-8):	Модуль для Perl Net::Telnet
-Summary(sv.UTF-8):	Net::Telnet Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl Net::Telnet
-Summary(zh_CN.UTF-8):	Net::Telnet Perl 模块
+Summary:	Net::Telnet Perl module - interact with TELNET port or other TCP ports
+Summary(pl.UTF-8):	Moduł Perla Net::Telnet - komunikacja protokołem TELNET lub z innymi portami TCP
 Name:		perl-Net-Telnet
-Version:	3.03
-Release:	4
+Version:	3.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2f7d34b09d6117baefe89d44cff9d5fc
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	d2514080116c1b0fa5f96295c84538e3
+URL:		http://search.cpan.org/dist/Net-Telnet/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::Telnet - interact with TELNET port or other TCP ports.
+Net::Telnet allows you to make client connections to a TCP port and do
+network I/O, especially to a port using the TELNET protocol.
 
 %description -l pl.UTF-8
-Net::Telnet - wsparcie dla protokołu TELNET.
+Net::Telnet pozwala na wykonywanie połączeń z portami TCP i
+wykonywanie sieciowych operacji wejścia/wyjścia, w szczególności przy
+użyciu protokołu TELNET.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -64,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README
 %{perl_vendorlib}/Net/Telnet.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Net::Telnet.3pm*
