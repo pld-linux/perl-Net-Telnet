@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Telnet
 Summary:	Net::Telnet Perl module - interact with TELNET port or other TCP ports
