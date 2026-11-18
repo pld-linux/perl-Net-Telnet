@@ -7,13 +7,13 @@
 Summary:	Net::Telnet Perl module - interact with TELNET port or other TCP ports
 Summary(pl.UTF-8):	Moduł Perla Net::Telnet - komunikacja protokołem TELNET lub z innymi portami TCP
 Name:		perl-Net-Telnet
-Version:	3.04
-Release:	2
+Version:	3.05
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d2514080116c1b0fa5f96295c84538e3
+Source0:	https://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	c8573c57a2d9469f038c40ac284b1e5f
 URL:		http://search.cpan.org/dist/Net-Telnet/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
